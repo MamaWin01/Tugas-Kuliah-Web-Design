@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {font-family: "Lato", sans-serif}
+        .text-style1{font-family: 'Orelega One', cursive;font-size:50px;line-height: 1.6;}
+        .mySlides {display: none}
+        a:link {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+<div class="top" id="home">
+    <div class="bar black" style="text-decoration:none">
+      <a class="bar-item button padding-large hide-medium hide-large right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="https://tugas-web-design.netlify.app/" class="bar-item button padding-large">HOME</a>
+      <a href="/product" class="bar-item button padding-large hide-small">PRODUCT</a>
+      <a href="#service" class="bar-item button padding-large hide-small">SERVICE</a>
+      <a href="#contact" class="bar-item button padding-large hide-small">CONTACT</a>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block black hide hide-large hide-medium top" style="margin-top:46px">
+    <a href="/product" class="bar-item button padding-large" onclick="myFunction()">PRODUCT</a>
+    <a href="#service" class="bar-item button padding-large" onclick="myFunction()">SERVICE</a>
+    <a href="#contact" class="bar-item button padding-large" onclick="myFunction()">CONTACT</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="content" style="max-width:2000px;margin-top:46px;">
+    <div class="col pt-4 bgimg">
+        <div class="row">
+            <div class="card ml-4 " style="width: 18rem;">
+                <div class="card-body">
+                  <img class="imgsize" src="https://cf.shopee.co.id/file/a507ce5b46ab5e061fa6c234b4b0efa7" alt="img">
+                  <h5 class="card-title">Product 1</h5>
+                  <p class="card-text">Ini Adalah Sebuah Contoh List Product</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p style="opacity: 90%;" class="pt-2">IDR 150.000</p></li>
+                  <li class="list-group-item"><button class="button green margin-bottom" onclick="document.getElementById('location').style.display='block'">On Stock</button></li>
+                </ul>
+              </div>
+              <div class="card ml-4 " style="width: 18rem;">
+                <div class="card-body">
+                  <img class="imgsize" src="https://cf.shopee.co.id/file/a019e598a5d2efd3735d8950400187c2" alt="img">
+                  <h5 class="card-title">Product 2</h5>
+                  <p class="card-text">Ini Adalah Sebuah Contoh List Product</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p style="opacity: 90%;" class="pt-2">IDR 150.000</p></li>
+                  <li class="list-group-item"><button class="button green margin-bottom" onclick="document.getElementById('location').style.display='block'">On Stock</button></li>
+                </ul>
+              </div>
+              <div class="card ml-4 " style="width: 18rem;">
+                <div class="card-body">
+                    <img class="imgsize" src="https://cf.shopee.co.id/file/03bfd43971b937e761c9da923951aadc" alt="img">
+                  <h5 class="card-title">Product 3</h5>
+                  <p class="card-text">Ini Adalah Sebuah Contoh List Product</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p style="opacity: 90%;" class="pt-2">IDR 150.000</p></li>
+                  <li class="list-group-item"><button class="button red margin-bottom" onclick="document.getElementById('location').style.display='block'">Off Stock</button></li>
+                </ul>
+              </div>
+              <div class="card ml-4 " style="width: 18rem;">
+                <div class="card-body">
+                    <img class="imgsize" src="https://cf.shopee.co.id/file/c507afac3866f606eb1b0e36454b3a93" alt="img">
+                  <h5 class="card-title">Product 4</h5>
+                  <p class="card-text">Ini Adalah Sebuah Contoh List Product</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p style="opacity: 90%;" class="pt-2">IDR 150.000</p></li>
+                  <li class="list-group-item"><button class="button red margin-bottom" onclick="document.getElementById('location').style.display='block'">Off Stock</button></li>
+                </ul>
+              </div>
+              <div class="card ml-4 " style="width: 18rem;">
+                <div class="card-body">
+                    <img class="imgsize" src="https://cf.shopee.co.id/file/aa5a1950109ed13603ded405d833649d" alt="img">
+                  <h5 class="card-title">Product 5</h5>
+                  <p class="card-text">Ini Adalah Sebuah Contoh List Product</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p style="opacity: 90%;" class="pt-2">IDR 150.000</p></li>
+                  <li class="list-group-item"><button class="button green margin-bottom" onclick="document.getElementById('location').style.display='block'">On Stock</button></li>
+                </ul>
+              </div>
+        </div>
+        <div class="row pt-4">
+            <div class="card ml-4 " style="width: 18rem;">
+                <div class="card-body">
+                    <img class="imgsize" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYC_92gT0TEZePtsuS5QU2V0H4K0CDlEnmgQ&usqp=CAU" alt="img">
+                  <h5 class="card-title">Product 6</h5>
+                  <p class="card-text">Ini Adalah Sebuah Contoh List Product</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><p style="opacity: 90%;" class="pt-2">IDR 150.000</p></li>
+                  <li class="list-group-item"><button class="button green margin-bottom" onclick="document.getElementById('location').style.display='block'">On Stock</button></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+      x.className += " show";
+    } else {
+      x.className = x.className.replace(" show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('location');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+</body>
+</html>
